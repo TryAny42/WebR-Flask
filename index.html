@@ -1,0 +1,107 @@
+{% extends 'layout.html' %}
+{% block body %}
+    {% include 'includes/_navbar.html' %}
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item">
+			<div class="caption zoomIn wow animated"> 		 
+				  <h2>PASSION <br/><strong>Beauty can be seen in all things</strong></h2>
+				  </div>
+				  
+			<img class="" src="img/slide1.jpg" alt=""></div>
+			<div class="item">
+			<div class="caption zoomIn wow animated"> 		 			 
+				  <h2>HOBBY<br/><strong>Best Dreams Happen</strong></h2>
+				  </div>
+				  <img class="" src="img/slide2.jpg" alt=""></div>
+			<div class="item">
+			<div class="caption zoomIn wow animated"> 		 			
+				  <h2>MY WORLD<br/><strong>Take it before its too late</strong></h2>
+				 </div><img class="" src="img/slide3.jpg" alt=""></div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+	</div>
+
+	<section id="aboutUs"><!--Aboutus-->
+	<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+	  <div class="container">
+		<h2>About Me</h2>
+		<h6>A persone who loves Nature and It's creations</h6>
+		<div class="inner_section">
+	 <div class="row">
+		  <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" align=""> </div>
+		  <div class="col-md-6">
+			<h3>My Passion</h3>
+			<p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p> 
+			 
+			<p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. 
+										</p>
+
+										<ul class="about-us-list">
+											<li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li> 
+											<li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
+											<li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
+										</ul><!-- /.about-us-list -->
+									 
+		  </div>
+		</div>
+			 </div>
+	  </div> 
+	  </div>
+	</section>
+	<!--Aboutus--> 
+
+	<!--Service-->
+	<section  id="service">
+	  <div class="container">
+		<h2>My Skills</h2>
+		<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+		<div class="service_wrapper">
+		  <div class="row">
+			<div class="col-md-3">
+			<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-tree"></i></span> </div>
+			  <div class="service_block">
+				
+				<h3 class="animated fadeInUp wow">Photography</h3>
+				<p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+			  </div>
+			</div>
+			<div class="col-md-3"> 
+			<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-crosshairs"></i></span> </div> 
+			<div class="service_block">
+				<h3 class="animated fadeInUp wow">Editing Skills</h3>
+				<p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+			  </div>
+			</div>
+			<div class="col-md-3">
+			<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building-o "></i></span> </div>
+			  <div class="service_block">
+				
+				<h3 class="animated fadeInUp wow">Lighting</h3>
+				<p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+			  </div>
+			</div>
+			  <div class="col-md-3">
+			<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-twitter"></i></span> </div>
+			  <div class="service_block">
+				
+				<h3 class="animated fadeInUp wow">Dimensions</h3>
+				<p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+			  </div>
+			</div>
+		  </div> 
+		 
+		</div>
+	  </div>
+	</section>
+	<!--Service-->  
+
+{% endblock %}
